@@ -1,0 +1,3 @@
+[Sun Oct 27 23:38:20.495740 2024] [mpm_prefork:notice] [pid 7041:tid 7041] AH00163: Apache/2.4.62 (Fedora Linux) configured -- resuming normal operations
+[Sun Oct 27 23:38:20.496093 2024] [core:notice] [pid 7041:tid 7041] AH00094: Command line: '/usr/sbin/httpd -f /usr/share/gnome-user-share/dav_user_2.4.conf -C Listen 34447'
+[Sun Oct 27 23:38:23.290324 2024] [mpm_prefork:notice] [pid 7041:tid 7041] AH00169: caught SIGTERM, shutting down

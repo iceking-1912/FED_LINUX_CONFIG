@@ -1,0 +1,205 @@
+/* Copyright 2014 Sam Hewitt.
+*
+* This file is part of the Orchis GTK theme.
+*
+* The Orchis GTK theme is free software: you can redistribute it
+* and/or modify it under the terms of the GNU General Public License as
+* published by the Free Software Foundation, either version 3 of the
+* License, or (at your option) any later version.
+*
+* The Orchis GTK theme is distributed in the hope that it will be
+* useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+* Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with the Orchis GTK theme. If not, see http://www.gnu.org/licenses/.
+*/
+
+
+/***********
+ * Buttons *
+ ***********/
+ 
+.button {
+    -GtkWidget-focus-padding: 0;
+    -GtkWidget-focus-line-width: 0;
+    
+    padding: 3px 8px;
+
+    background-image: linear-gradient(to bottom,
+                                  @button_gradient_a,
+                                  @button_gradient_b
+                                  );
+
+    box-shadow: inset 0 0 0 1px alpha (@base, 0.05),
+                inset 0 1px 0 0 alpha (@base, 0.45),
+                inset 0 -1px 0 0 alpha (@base, 0.15);
+    color: @text;
+    text-shadow: 0 1px @text_shadow;
+    icon-shadow: 0 1px @icon_shadow;
+}
+
+
+.button:focus,
+.button:hover {
+
+    padding: 3px 8px;
+    color: @text;
+
+    background-image: linear-gradient(to bottom,
+                                  @button_gradient_a,
+                                  @button_gradient_b
+                                  );
+    
+    box-shadow: inset 0 0 0 1px alpha (@base, 0.05),
+                inset 0 1px 0 0 alpha (@base, 0.45),
+                inset 0 -1px 0 0 alpha (@base, 0.15);
+}
+
+
+/* Active/Pressed Button */
+.button:active {
+
+    padding: 3px 8px;
+    color: @text;
+
+    background-image: linear-gradient(to bottom,
+                                  @button_active_gradient_a,
+                                  @button_active_gradient_b
+                                  );
+    box-shadow: inset 0 0 0 1px alpha (@base, 0.05),
+                inset 0 1px 0 0 alpha (@base, 0.45),
+                inset 0 -1px 0 0 alpha (@base, 0.15);
+}
+
+
+/* Separator */
+.button .separator,
+.button.separator {
+    color: @border;
+}
+
+.button .separator:insensitive,
+.button.separator:insensitive {
+    color: @insensitive_border;
+}
+
+/* Insensitive Button */
+.button:insensitive,
+.button.default:insensitive,
+.button:active:insensitive {
+    background-color: @insensitive_background;
+    background-image: none;
+    color: @insensitive_text;
+    text-shadow: none;
+}
+
+/* backdrop Button */
+.button:backdrop,
+.button.default:backdrop,
+.button:active:backdrop {
+    background-color: @backdrop_background;
+    background-image: linear-gradient(to bottom,
+                                  @button_backdrop_gradient_a,
+                                  @button_backdrop_gradient_b
+                                  );
+    color: @backdrop_text;
+    text-shadow: none;
+}
+
+
+/* Default Button */
+.button.default {
+    color: @text;
+    background-image: linear-gradient(to bottom,
+                              @button_gradient_a,
+                              @button_gradient_b
+                              );
+}
+
+.button.default:hover,
+.button.default:active {
+    color: @active_text;
+    background-image: linear-gradient(to bottom,
+                              @button_active_gradient_a,
+                              @button_active_gradient_b
+                              );
+}
+
+.button.default:active:hover {
+    background-image: linear-gradient(to bottom,
+                              @button_active_gradient_a,
+                              @button_active_gradient_b
+                              );
+}
+
+/****************************
+ * Suggested action buttons *
+ ****************************/
+.toolbar .suggested-action.button,
+.suggested-action.button {
+    background-image: linear-gradient(to bottom,
+                                      @suggested_action_button_a,
+                                      @suggested_action_button_b);
+
+    color: white;
+}
+
+.toolbar .suggested-action.button:hover,
+.suggested-action.button:hover {
+    background-image: linear-gradient(to bottom,
+                                      shade(@suggested_action_button_a, 1.10),
+                                      shade(@suggested_action_button_b, 1.05));
+
+    color: white;
+}
+
+.toolbar .suggested-action.button:active,
+.toolbar .suggested-action.button:hover:active,
+.suggested-action.button:active,
+.suggested-action.button:hover:active {
+    background-image: linear-gradient(to bottom,
+                                      @suggested_action_button_b,
+                                      @suggested_action_button_a);
+
+    color: white;
+}
+
+.toolbar .suggested-action.button:backdrop,
+.suggested-action.button:backdrop {
+    background-image: none;
+}
+
+.toolbar .suggested-action.button,
+.suggested-action.button {
+    text-shadow: 0 1px @suggested_action_button_shadow;
+    icon-shadow: 0 1px @suggested_action_button_shadow;
+}
+
+.toolbar .suggested-action.button:active,
+.toolbar .suggested-action.button:hover:active,
+.suggested-action.button:active,
+.suggested-action.button:hover:active {
+    text-shadow: 0 1px shade(@suggested_action_button_shadow, 1.15);
+    icon-shadow: 0 1px shade(@suggested_action_button_shadow, 1.15);
+}
+
+
+.suggested-action.button:insensitive,
+.suggested-action.button:active *:insensitive {
+    icon-shadow: none;
+    background-image: none;
+    background-color: @insentitive_background;
+}
+
+.suggested-action.button GtkLabel:insensitive,
+.suggested-action.button GtkLabel:backdrop,
+.suggested-action.button GtkLabel:backdrop:insensitive {
+    color: @insensitive_foreground;
+    text-shadow: none;
+}
+
+.suggested-action.button:insensitive:backdrop {
+    background-color: alpha(@insentitive_background,0.7);
+}

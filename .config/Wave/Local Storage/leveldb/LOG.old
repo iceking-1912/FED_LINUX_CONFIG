@@ -1,0 +1,14 @@
+2024/10/26-16:01:11.715 24bd6 Creating DB /home/arcticaura/.config/Wave/Local Storage/leveldb since it was missing.
+2024/10/26-16:01:11.727 24bd6 Reusing MANIFEST /home/arcticaura/.config/Wave/Local Storage/leveldb/MANIFEST-000001
+2024/10/26-16:54:44.105 24bd7 Level-0 table #5: started
+2024/10/26-16:54:44.106 24bd7 Level-0 table #5: 49143 bytes OK
+2024/10/26-16:54:44.108 24bd7 Delete type=0 #3
+2024/10/26-16:55:33.622 24bd7 Level-0 table #7: started
+2024/10/26-16:55:33.624 24bd7 Level-0 table #7: 43852 bytes OK
+2024/10/26-16:55:33.626 24bd7 Delete type=0 #4
+2024/10/26-17:05:56.848 24bd7 Level-0 table #9: started
+2024/10/26-17:05:56.850 24bd7 Level-0 table #9: 51877 bytes OK
+2024/10/26-17:05:56.851 24bd7 Delete type=0 #6
+2024/10/26-17:11:47.275 24bd7 Level-0 table #11: started
+2024/10/26-17:11:47.278 24bd7 Level-0 table #11: 47638 bytes OK
+2024/10/26-17:11:47.279 24bd7 Delete type=0 #8

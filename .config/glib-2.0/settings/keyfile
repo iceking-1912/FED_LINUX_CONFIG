@@ -1,0 +1,7 @@
+[org/gnome/desktop/interface]
+gtk-theme='WhiteSur-Light-hdpi'
+color-scheme='prefer-light'
+icon-theme='Flat-Remix-Blue-Light'
+
+[org/gnome/desktop/wm/preferences]
+theme='Juno'

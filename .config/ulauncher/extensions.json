@@ -1,0 +1,44 @@
+{
+    "com.github.dankni95.ulauncher-playerctl": {
+        "id": "com.github.dankni95.ulauncher-playerctl",
+        "url": "https://github.com/Dankni95/ulauncher-playerctl",
+        "updated_at": "2024-10-26T10:54:24.219342",
+        "last_commit": "c2efafd66c3d60445a545f9f202b82202f93cd70",
+        "last_commit_time": "2022-03-23T21:18:25"
+    },
+    "com.github.gnikolaos.ulauncher-window-manager": {
+        "id": "com.github.gnikolaos.ulauncher-window-manager",
+        "url": "https://github.com/gnikolaos/ulauncher-window-manager/",
+        "updated_at": "2024-10-26T10:56:13.416208",
+        "last_commit": "37816e1f2cd4c7e9cf8144f532ada2f85317cbdf",
+        "last_commit_time": "2024-09-23T16:39:38"
+    },
+    "com.github.zachatrocity.ulauncher-ollama": {
+        "id": "com.github.zachatrocity.ulauncher-ollama",
+        "url": "https://github.com/zachatrocity/ulauncher-ollama",
+        "updated_at": "2024-10-26T10:56:24.509436",
+        "last_commit": "1cb33ac391dc5650c8d1970c30249c159687853f",
+        "last_commit_time": "2024-06-07T05:20:43"
+    },
+    "com.github.jprnp.warp-launcher": {
+        "id": "com.github.jprnp.warp-launcher",
+        "url": "https://github.com/Jprnp/warp-launcher",
+        "updated_at": "2024-10-26T10:56:39.770238",
+        "last_commit": "8da66d6da09445217283c658099e5962dd8e5a5d",
+        "last_commit_time": "2024-04-01T12:51:02"
+    },
+    "com.github.pymustafa.ulauncher-shortn": {
+        "id": "com.github.pymustafa.ulauncher-shortn",
+        "url": "https://github.com/PyMustafa/ulauncher-shortn",
+        "updated_at": "2024-10-26T10:57:37.130193",
+        "last_commit": "29caf53983cad40a4f28a6d0b743f6ec7fbc4d6b",
+        "last_commit_time": "2024-08-20T13:13:07"
+    },
+    "com.github.programazing.ulauncher-local-listeners-v2": {
+        "id": "com.github.programazing.ulauncher-local-listeners-v2",
+        "url": "https://github.com/Programazing/ulauncher-local-listeners-v2",
+        "updated_at": "2024-10-26T10:57:56.359300",
+        "last_commit": "af571ebb3b16d2d7e105b53caeaa3ba0c3686d00",
+        "last_commit_time": "2024-06-09T00:17:03"
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "clientId": "3622a268-6dc8-428a-91f3-10335c50df2b",
+  "userId": "",
+  "authedUserIDs": [],
+  "app": {
+    "logLevel": 1,
+    "lastTimeClearLogFile": 1729967031225,
+    "enableColorSpaceSrgb": false,
+    "visibleNewProjectBtn": true,
+    "useZenity": false,
+    "disableThemes": false,
+    "panelHeight": 40,
+    "saveLastOpenedTabs": true,
+    "exportDir": "/home/arcticaura/Pictures/Figma",
+    "commandSwitches": [
+      {
+        "switch": "enable-gpu-rasterization"
+      },
+      {
+        "switch": "enable-experimental-canvas-features"
+      },
+      {
+        "switch": "use-vulkan"
+      }
+    ],
+    "fontDirs": [
+      "/usr/share/fonts",
+      "/usr/local/share/fonts",
+      "/run/host/fonts",
+      "/run/host/user-fonts",
+      "/home/arcticaura/.local/share/fonts"
+    ],
+    "recentlyClosedTabs": [],
+    "windowsState": {},
+    "lastOpenedTabs": {},
+    "featureFlags": {},
+    "savedExtensions": [],
+    "themeDropdownOpen": true,
+    "creatorsThemesDropdownOpen": false,
+    "useOldPreviewer": false,
+    "dontShowTutorialCreator": false
+  },
+  "theme": {
+    "currentTheme": "0"
+  },
+  "ui": {
+    "scalePanel": 1,
+    "scaleFigmaUI": 1
+  }
+}

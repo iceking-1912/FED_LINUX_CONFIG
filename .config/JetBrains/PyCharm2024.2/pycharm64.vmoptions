@@ -1,0 +1,4 @@
+-Xmx918m
+-Dide.managed.by.toolbox=/home/arcticaura/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=337c3559-b750-4bde-97fc-452eae43ab7f
+-Dtoolbox.notification.portFile=/home/arcticaura/.cache/JetBrains/Toolbox/ports/5b172cfc-84ae-4f0a-89b9-eb6ed88c5b20.port

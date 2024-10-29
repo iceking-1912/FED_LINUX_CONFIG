@@ -1,0 +1,13 @@
+{
+    "protocol": "openvpn-udp",
+    "killswitch": 0,
+    "dns_custom_ips": [],
+    "ipv6": true,
+    "anonymous_crash_reports": false,
+    "features": {
+        "netshield": 0,
+        "moderate_nat": false,
+        "vpn_accelerator": true,
+        "port_forwarding": false
+    }
+}
